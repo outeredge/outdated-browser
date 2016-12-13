@@ -23,6 +23,7 @@
     'use strict';
 
     function OutdatedBrowser(data) {
+        data = data || {};
         this.browser = {};
         this.classname = data.classname || 'outdated-browser-notice';
         this.html = data.html || 'You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en" target="_blank">upgrade your browser</a> to improve your experience.';
@@ -79,7 +80,7 @@
     };
 
     OutdatedBrowser.prototype.toggleNotice = function() {
-        for (var b in this.browsers) {
+        for (var b = 0; b < this.browsers.length; b++) {
             var browser = this.browsers[b];
             for (var x in this.browser) {
                 if (this.browser[x] && ((browser === x) || (browser.indexOf(x) === 0 && this.checkVersion(parseInt(browser.replace(/[^\d.]/g, '')))))) {
