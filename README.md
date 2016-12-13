@@ -22,3 +22,12 @@ Options can be passed into the script tag as `data-attributes`
 - `Edge`
 - `Opera`
 - `Blink`
+
+#### Examples
+
+`<script src="outdated-browser.js" data-browsers="IE6,IE7,IE8"></script>`
+`<script src="outdated-browser.js" data-browsers="Chrome48"></script>`
+`<script src="outdated-browser.js" data-classname="my-custom-class"></script>`
+`<script src="outdated-browser.js" data-html="Oops, you should upgrade your browser"></script>`
+`<script src="outdated-browser.js" data-parent=".element.selector"></script>`
+`<script src="outdated-browser.js" data-parent="#elementid"></script>`
