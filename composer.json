@@ -1,0 +1,11 @@
+{
+    "name": "outeredge/outdated-browser",
+    "description": "Outdated Browser Notice by outer/edge",
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "support@outeredgeuk.com"
+        }
+    ],
+    "require": {}
+}
