@@ -25,7 +25,7 @@
     function OutdatedBrowser(data) {
         this.browser = {};
         this.classname = data.classname || 'outdated-browser-notice';
-        this.html = data.html || 'You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.';
+        this.html = data.html || 'You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en" target="_blank">upgrade your browser</a> to improve your experience.';
         this.parent = data.parent ? document.querySelector(data.parent) : document.body;
         this.browsers = data.browsers ? data.browsers.split(',') : [];
         this.setBrowser();
