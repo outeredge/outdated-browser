@@ -30,4 +30,4 @@ Options can be passed into the script tag as `data-attributes`
 `<script src="outdated-browser.js" data-classname="my-custom-class"></script>`
 `<script src="outdated-browser.js" data-html="Oops, you should upgrade your browser"></script>`
 `<script src="outdated-browser.js" data-parent=".element.selector"></script>`
-`<script src="outdated-browser.js" data-parent="#elementid"></script>`
+`<script src="outdated-browser.js" data-parent="#elementid"></script>`  
